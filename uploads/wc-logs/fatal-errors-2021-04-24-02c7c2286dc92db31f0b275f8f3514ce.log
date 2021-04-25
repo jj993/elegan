@@ -1,0 +1,212 @@
+2021-04-24T17:37:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:37:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:37:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:39:30+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:39:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:41:31+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:41:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:43:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T17:43:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "wc_generator_tag" not found or invalid function name in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<meta name="gen...', Array)
+#1 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4728): apply_filters('get_the_generat...', '<meta name="gen...', 'xhtml')
+#2 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4650): get_the_generator('xhtml')
+#3 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(4627): the_generator('xhtml')
+#4 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): wp_generator('')
+#5 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\softwaree\htdocs\elegan\wp-includes\general-template.php(3009): do_action('wp_head')
+#8 D:\softwaree\htdocs\elegan\wp-content\themes\sydney-child\functions.php(18): wp_head()
+#9 D:\softwaree\htdocs\elegan\wp-settings.php(528): include('D:\\softwaree\\ht...')
+#10 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#11 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-admin\admin-ajax.php(22): require_once('D:\\softwaree\\ht...')
+#13 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php on line 292
+
+2021-04-24T19:03:21+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php:48
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php(48): sprintf('<p class="saved...', '<span class="wo...')
+#1 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): change_displayed_sale_price_html('<del><span clas...', Object(WC_Product_Simple))
+#2 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(212): WP_Hook->apply_filters('<del><span clas...', Array)
+#3 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1803): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#4 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\templates\loop\price.php(25): WC_Product->get_price_html()
+#5 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\softwaree\\ht...')
+#6 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1330): wc_get_template('loop/price.php')
+#7 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): woocommerce_template_loop_price('')
+#8 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\templates\content-product.php(57): do_action('woocommerce_aft...')
+#11 D:\softwaree\htdocs\elegan\wp-includes\template.php(732): require('D:\\softwaree\\ht...')
+#12 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\softwaree\\ht...', false)
+#13 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#14 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\softwaree\\ht...')
+#15 D:\softwaree\htdocs\elegan\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#16 D:\softwaree\htdocs\elegan\wp-includes\template-loader.php(106): include('D:\\softwaree\\ht...')
+#17 D:\softwaree\htdocs\elegan\wp-blog-header.php(19): require_once('D:\\softwaree\\ht...')
+#18 D:\softwaree\htdocs\elegan\index.php(17): require('D:\\softwaree\\ht...')
+#19 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php on line 48
+
+2021-04-24T19:11:17+00:00 CRITICAL Uncaught Error: Undefined constant "_FILE_" in D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php:13
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): cf_register_script('')
+#1 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\softwaree\htdocs\elegan\wp-settings.php(560): do_action('init')
+#4 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#5 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#6 D:\softwaree\htdocs\elegan\wp-blog-header.php(13): require_once('D:\\softwaree\\ht...')
+#7 D:\softwaree\htdocs\elegan\index.php(17): require('D:\\softwaree\\ht...')
+#8 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php on line 13
+
+2021-04-24T19:13:25+00:00 CRITICAL Uncaught Error: Undefined constant "_FILE_" in D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php:13
+Stack trace:
+#0 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(292): cf_register_script('')
+#1 D:\softwaree\htdocs\elegan\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 D:\softwaree\htdocs\elegan\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\softwaree\htdocs\elegan\wp-settings.php(560): do_action('init')
+#4 D:\softwaree\htdocs\elegan\wp-config.php(90): require_once('D:\\softwaree\\ht...')
+#5 D:\softwaree\htdocs\elegan\wp-load.php(37): require_once('D:\\softwaree\\ht...')
+#6 D:\softwaree\htdocs\elegan\wp-blog-header.php(13): require_once('D:\\softwaree\\ht...')
+#7 D:\softwaree\htdocs\elegan\index.php(17): require('D:\\softwaree\\ht...')
+#8 {main}
+  thrown in D:\softwaree\htdocs\elegan\wp-content\plugins\sales-babge\sales-babge.php on line 13
+
